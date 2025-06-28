@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div class="feedback-container">
+        <h1>Gửi Phản Hồi Của Bạn</h1>
+        <p>Chúng tôi rất trân trọng ý kiến đóng góp của bạn!</p>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="rating">Đánh giá (1–5 sao):</label>
+                <select id="rating" name="rating" required>
+                <option class="stars" value="">-- Chọn số sao --</option>
+                <option value="1">★☆☆☆☆ - Rất tệ</option>
+                <option value="2">★★☆☆☆ - Tệ</option>
+                <option value="3">★★★☆☆ - Bình thường</option>
+                <option value="4">★★★★☆ - Tốt</option>
+                <option value="5">★★★★★ - Rất tốt</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="feedback">Phản hồi của bạn:</label><br>
+                <textarea id="feedback" name="feedback" rows="6" placeholder="Chia sẻ suy nghĩ và trải nghiệm của bạn với chúng tôi" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email của bạn (tùy chọn):</label>
+                
+            </div>
+            <div class="butt">
+            <button type="submit" class="submit-button">Gửi Phản Hồi</button>
+            </div>
+        </form>
+</body>
+</html>
