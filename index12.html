@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Khảo Sát Ý Kiến Người Dùng</h1>
+        <p>Ý kiến của bạn là vô cùng quý giá để chúng tôi cải thiện dịch vụ!</p>
+
+        <form action="">
+            <div >
+                <label for="age">Độ tuổi của bạn là:</label>
+                <select id="age" name="ge" required>
+                    <option value="">--Chọn độ tuổi--</option>
+                    <option value="under18">Dưới 18</option>
+                    <option value="18-25">18 - 25</option>
+                    <option value="26-35">26 - 35</option>
+                    <option value="36-50">36 - 50</option>
+                    <option value="over50">Trên 50</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Bạn biết đến chúng tôi qua kênh nào?</label>
+                <div>
+                    <input type="radio" id="social_media" name="social_media" value="social_media" required>
+                    <label for="social_media">Mạng xã hội</label>
+                </div>
+                <div>
+                    <input type="radio" id="search" name="search" value="search">
+                    <label for="search">Công cụ tìm kiếm</label>
+                </div>
+                <div>
+                    <input type="radio" id="friend" name="friend" value="friend">
+                    <label for="friend">Bạn bè giới thiệu</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="other" value="other">
+                    <label for="other">Khác</label>
+                </div>
+            </div>
+
+            <div>
+                <label>Bạn quan tâm đến những lĩnh vực nào?</label>
+                <div>
+                    <input type="checkbox" id="tech" name="tech" value="tech">
+                    <label for="tech">Công nghệ</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="health" name="health" value="health">
+                    <label for="health">Sức khỏe & Lối sống</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="travel" name="travel" value="travel">
+                    <label for="travel">Du lịch</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="food" name="food" value="food">
+                    <label for="food">Ẩm thực</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="feedback">Bạn có bất kỳ góp ý nào khác cho chúng tôi không?</label>
+                <textarea id="feedback" name="feedback" rows="5" placeholder="Chia sẻ ý kiến của bạn tại đây"></textarea>
+            </div>
+
+            <button type="submit" class="submit-survey-btn">Gửi Khảo Sát</button>
+        </form>
+    </div>
+</body>
+</html>
