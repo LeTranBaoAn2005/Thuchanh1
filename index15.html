@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Thanh Toán Đơn Hàng</h1>
+
+    <label for="name">Họ và tên:</label>
+    <input type="text" id="name" name="name" required> <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <label for="address">Địa chỉ giao hàng:</label><br>
+    <textarea id="address" name="address" rows="3" required></textarea><br>
+
+    <label>Hình thức thanh toán:</label>
+    <div class="payment-options">
+      <label><input type="radio" name="payment" value="cod" required> Thanh toán khi nhận hàng (COD)</label><br>
+      <label><input type="radio" name="payment" value="bank"> Chuyển khoản ngân hàng</label><br>
+      <label><input type="radio" name="payment" value="wallet"> Ví điện tử (Momo, ZaloPay...)</label>
+    </div>
+
+    <button type="submit">Xác Nhận Thanh Toán</button>
+  </form>
+</body>
+</html>
